@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "diwali_contents",
+  "info": {
+    "singularName": "diwali-content",
+    "pluralName": "diwali-contents",
+    "displayName": "diwali-content",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "quote": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
